@@ -1,0 +1,66 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color:white;
+    background-color: rgb(25, 110, 162);
+    font-size: 38px;
+    max-width: 200%;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .ajouter {
+    background: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-weight:bold;
+    margin-left: 100%;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+   top: 200px;
+   background: #f1f7fe;
+   font-weight: bold;
+   font-size: 18px;
+   margin-top: 50px;
+   max-width: 200%;
+   text-align: center;
+
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 18px;
+    background-color:#dddddd;
+    width: 300px;
+  }
+  
+
+  /** code de gestion des consultationss**/

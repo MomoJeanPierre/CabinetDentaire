@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../../images/ce3.PNG);
+    background-size: cover;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2e3192;
+   color: aliceblue;
+  }
+  
+  .logo img {
+    width: 60px;
+  }
+  
+  nav {
+    margin-right: 1rem;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: cornsilk;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin-left: 300PX;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: center;
+    margin-top:  100px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+  
+  footer {
+    background-color: #2e3192;
+    color: #fff;
+    position: fixed;
+    text-align:left;
+    bottom: 0;
+    width: 200%;
+  }
+
+  
